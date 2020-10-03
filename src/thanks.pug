@@ -1,0 +1,27 @@
+extends pug/layout.pug
+
+block meta
+  title Страница благодарности
+block header
+
+block content
+  main.order-page
+    section.order-page__block
+      img.order-page__img(src='img/content/page-thanks.png', alt='Страница благодарности')
+      h1.title.order-page__title Спасибо за заявку!
+      p.order-page__text В ближайшее время администратор свяжется с вами, а пока можете познакомиться и подписаться на наши соцсети:
+      ul.order-page__social
+        li.order-page__social-item
+          a.order-page__social-link(href='#', target='_blank', aria-label='Социальная сеть Facebook')
+            svg.order-page__social-icon(width='100%', height='100%')
+              use(xlink:href='img/symbols.svg#facebook-th')
+        li.order-page__social-item
+          a.order-page__social-link(href='#', target='_blank', aria-label='Социальная сеть Instagram')
+            svg.order-page__social-icon(width='100%', height='100%')
+              use(xlink:href='img/symbols.svg#instagram-th')
+        li.order-page__social-item
+          a.order-page__social-link(href='#', target='_blank', aria-label='Социальная сеть Vkontakte')
+            svg.order-page__social-icon(width='100%', height='100%')
+              use(xlink:href='img/symbols.svg#vk-th')
+      a.btn.btn--main.order-page__btn(href='/') На главную
+block footer

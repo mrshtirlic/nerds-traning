@@ -1,0 +1,19 @@
+// Style plagin
+@import "variables";
+
+// @import "../../node_modules/bootstrap/scss/bootstrap-grid.scss";
+
+// My style
+
+@import "grid-mixins";
+
+@import "functions";
+
+@import "fonts";
+@import "global";
+
+@import "../blocks/components/btn/btn";
+
+@import "../blocks/project/page-header/page-header";
+@import "../blocks/project/page-footer/page-footer";
+@import "../blocks/project/order-page/order-page";

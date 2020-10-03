@@ -1,0 +1,51 @@
+.order-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 15px;
+}
+
+.order-page__title {
+  margin-bottom: 15px;
+}
+
+.order-page__social {
+  @include ul-none();
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.order-page__social-item {
+  display: inline-block;
+  padding: 7.5px;
+}
+
+.order-page__social-link {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.order-page__social-icon {
+  fill: #737f91;
+}
+
+.order-page__btn {
+  padding: 10px 30px 8px;
+}
+
+.order-page__text {
+  max-width: 480px;
+  margin: 0 auto 20px;
+}
+
+.order-page__block {
+  text-align: center;
+}
+
+.order-page__img {
+  transform: translateX(15px);
+}

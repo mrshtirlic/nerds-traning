@@ -1,0 +1,14 @@
+extends pug/layout.pug
+
+block meta
+  title Сраница не найдена
+block header
+
+block content
+  main.order-page
+    section.order-page__block
+      img.order-page__img(src='img/content/404-error.png', alt='Страница не найдена')
+      h1.title.order-page__title Страница не найдена
+      p.order-page__text Вероятнее всего, вы перешли на несуществующую страницу
+      a.btn.btn--main.order-page__btn(href='/') Вернуться
+block footer
