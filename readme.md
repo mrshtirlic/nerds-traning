@@ -4,7 +4,7 @@
 ## Запуск сборки
   * Инициализация **npm install**
   * Сборка проекта **npm run build**
-  * Режим разработки **npm run start**
+  * Режим разработки *npm *npm run start**
   * Проверка синтаксиса SCSS **npm run test:style**
   * Проверка синтаксиса PUG **npm run test:pug**
   * Глобальная проверка синтаксиса (JS, PUG, SCSS) **npm run test**

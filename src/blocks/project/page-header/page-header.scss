@@ -1,1 +1,56 @@
+.header {
+  background: #EEEEEE;
+  padding-top: 49px;
+}
 
+.page-header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
+  height: 65px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: flex-end;
+}
+
+@media (min-width: 1160px){
+  .container {
+    max-width: 1160px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+}
+
+.page-header__logo {
+  padding-right: 202px;
+}
+
+.page-header__list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  padding-right: 246px;
+  margin: 0;
+}
+
+.page-header__links {
+  padding-right: 45px;
+}
+
+.page-header__links:last-child {
+  padding-right: 0;
+}
+
+.page-header__basket svg{
+margin-right: 25px;
+}

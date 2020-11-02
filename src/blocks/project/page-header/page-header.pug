@@ -1,2 +1,18 @@
 mixin page-header()
-  .page-header header
+  header.header
+    .page-header
+      .container
+        .page-header__logo 
+          a(href='/')
+            img(src="./img/logo/nerds-logo.svg", alt="", srcset="")
+        ul.page-header__list 
+          li.page-header__links  Студия 
+          li.page-header__links  Клиенты
+          li.page-header__links  Магазин
+          li.page-header__links  Контакты
+
+        .page-header__basket
+          svg(width="15" height="15")
+            use(href="./img/symbols.svg#cart-icon")
+          | Корзина
+      

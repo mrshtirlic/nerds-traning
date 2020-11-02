@@ -1,39 +1,36 @@
 {
-  "_args": [
-    [
-      "@fancyapps/fancybox@3.5.2",
-      "/Users/uwetu/Desktop/Work/template-for-site"
-    ]
-  ],
-  "_from": "@fancyapps/fancybox@3.5.2",
-  "_id": "@fancyapps/fancybox@3.5.2",
+  "_from": "@fancyapps/fancybox@^3.2.5",
+  "_id": "@fancyapps/fancybox@3.5.7",
   "_inBundle": false,
-  "_integrity": "sha512-8xZcTc8wNq53ihacnomPtw5uG/KccgYAa+KNl/3PLwlz1Aldl+LzYSTQA0GW39JMJkfE6aiTQrSxte36uxNJqQ==",
+  "_integrity": "sha512-rcEtu8t+WnmqIDV/Wfm1yvy/nDdwc7YV25j9HLxGC2/WOsUhk9rcWg2nB8g1BrjRt9zaoADdjHTU6ILYTJzBBg==",
   "_location": "/@fancyapps/fancybox",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
+    "type": "range",
     "registry": true,
-    "raw": "@fancyapps/fancybox@3.5.2",
+    "raw": "@fancyapps/fancybox@^3.2.5",
     "name": "@fancyapps/fancybox",
     "escapedName": "@fancyapps%2ffancybox",
     "scope": "@fancyapps",
-    "rawSpec": "3.5.2",
+    "rawSpec": "^3.2.5",
     "saveSpec": null,
-    "fetchSpec": "3.5.2"
+    "fetchSpec": "^3.2.5"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@fancyapps/fancybox/-/fancybox-3.5.2.tgz",
-  "_spec": "3.5.2",
-  "_where": "/Users/uwetu/Desktop/Work/template-for-site",
+  "_resolved": "https://registry.npmjs.org/@fancyapps/fancybox/-/fancybox-3.5.7.tgz",
+  "_shasum": "12f8734663ec6eae7f9236b92ca236e6e07fdfd5",
+  "_spec": "@fancyapps/fancybox@^3.2.5",
+  "_where": "/Users/ilnurtakcurin/Documents/project/nerds-traning",
   "author": {
     "name": "fancyApps"
   },
   "bugs": {
     "url": "https://github.com/fancyapps/fancybox/issues"
   },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "Touch enabled, responsive and fully customizable jQuery lightbox script",
   "devDependencies": {
     "del": "^2.2.2",
@@ -47,7 +44,6 @@
     "gulp-notify": "^2.2.0",
     "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.5.4",
-    "gulp-sass": "^3.0.0",
     "gulp-uglify": "^2.0.0",
     "gulp-util": "^3.0.8",
     "jshint": "^2.9.4"
@@ -79,5 +75,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "style": "dist/jquery.fancybox.css",
-  "version": "3.5.2"
+  "version": "3.5.7"
 }
